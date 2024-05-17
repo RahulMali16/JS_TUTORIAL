@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thursday</div>
+    </div>
+</body>
+    <script>
+        const parent = document.querySelector('.parent');
+        console,log(parent);
+        console.log(parent.children) // htmlcollection
+
+        //lets say  apan ko tuesday print karna h
+        console.log(parent.children[1].innerHTML)
+
+        for (let i = 0; i < array.length; i++) {
+            console.log(parent.children[i].innerHTML)
+
+            
+        }
+
+        console.log(parent.firstElementchild)
+        //ye first choild  ko  laa skate h
+
+        const day1 = document.querySelector('.day')
+        //yye kya karega ye jp h pehla day laakar de dega apne paass
+      const parentelement = day1.parent;
+
+      console.log("Node :"  , childNode);
+      // ye jo  h ye nodelist deDEGA JITNE BHO CHILD NODE H USKE
+      //ISME YE HOTA HAIN KI YE JO H 9 ELEMENT DEGA 
+    //   YE ENTER KO BHI COUNT = TEXT NODE SE COUNT HO JATA H
+
+
+    const name = document.createElement('div');
+
+    div.class = "className";
+    div.id = "myid";
+
+    // to set custom attributes 
+    div.setAttribute("title", "geneted title");
+    div.innerHTML = "hi my name is rahul"
+    //ye memory se lekar aaega and yaha pe paste karega aur change hoga
+
+    //alternate 
+    const new2 = document.createTextNode("hi my name is rahul");
+    div.appendChild(new2);
+
+    //yaha pe div create kara h but usse print nahi kia h 
+
+     document.body.appendChild(div);
+
+
+    </script>
+</html>
